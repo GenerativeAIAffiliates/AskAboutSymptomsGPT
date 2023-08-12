@@ -10,6 +10,8 @@ Ask About Symptoms GPT is a Large Language Model. This is an open-source project
 - Credit: Siraj Raval
 • Ask About Symptoms is an LLM that has an in-depth understanding of health gathered by dialogue that has been set to completion and are the large corpus of data. The creator of the original version known as DoctorGPT, Siraj Raval, says it works offline, it's cross-platform, & the health data is said to be kept private. We are actively learning how to build this in our community.
 
+Please note some urls will be replaced with new ones for our project/tool. 
+
 ## Dependencies
 - [Numpy](https://numpy.org/install/)           (Use matrix math operations)
 - [PyTorch](https://pytorch.org/)         (Build Deep Learning models)
@@ -34,7 +36,7 @@ pip install numpy torch datasets huggingface_hub transformers trl bitsandbytes s
 
 ## Training
 
-In order to train the model, you can run the training.ipynb notebook locally or remotely via a cloud service like Google Colab Pro. The training process requires a GPU, and if you don't have one then the most accessible option i found was using Google Colab [Pro](https://colab.research.google.com/signup) which costs $10/month. The total training time for DoctorGPT including supervised fine-tuning of the initial LLama model on custom medical data, as well as further improving it via Reinforcement Learning from Constitional AI Feedback took 24 hours on a paid instance of Google Colab. If you're interested in learning more about how this process works, details are in the training.ipynb notebook. 
+In order to train the model, you can run the training.ipynb notebook locally or remotely via a cloud service like Google Colab Pro. The training process requires a GPU, and if you don't have one then the most accessible option i found was using Google Colab [Pro](https://colab.research.google.com/signup) which costs $10/month. The total training time for Ask About Symptoms GPT including supervised fine-tuning of the initial LLama model on custom medical data, as well as further improving it via Reinforcement Learning from Constitional AI Feedback took 24 hours on a paid instance of Google Colab. If you're interested in learning more about how this process works, details are in the training.ipynb notebook. 
 
 #### Cloud Training
 
@@ -44,7 +46,7 @@ click here: https://colab.research.google.com/drive/1LxRgY1chk0cmJx6iFE3hWefy3Wi
 #### Local Training
 
 ```bash
-git clone https://github.com/llSourcell/DoctorGPT.git
+git clone https://github.com/llSourcell/DoctorGPT.git  ##replace with AskAboutSymptomsGPT.git
 jupyter training.ipynb
 ```
 Get jupyter [here](https://jupyter.org/install)
