@@ -1,4 +1,4 @@
-# Doctor GPT
+# Ask About Symptoms GPT
 <p align="center">
 
 <img src="https://cdn.discordapp.com/attachments/1077539589822087219/1140044527487426690/genai.am_kid_friendly_futuristic_dr_that_resembles_a_robotic_ow_a20442ed-d687-492f-bd24-971a45d44c57.png" width="400" height="400">
